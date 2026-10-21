@@ -3,6 +3,7 @@ Main Application: Agentic RAG Demonstration
 Shows practical usage of the agentic RAG system with Gemini
 """
 
+import utils.session
 import os
 from dotenv import load_dotenv
 from vector_store import VectorStore
